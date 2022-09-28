@@ -6,8 +6,8 @@ const Home = () => {
   return (
 		<div className='home-container'>
 			<div className='activities-container'>
-       
-      </div>
+				<Activities></Activities>
+			</div>
 
 			<div className='cart-summary'>hello cart summary</div>
 		</div>
