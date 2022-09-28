@@ -1,0 +1,10 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+.activities-container {
+  border: 5px solid black;
+}
+.cart-summary {
+  border: 5px solid rgb(243, 11, 30);
+}
