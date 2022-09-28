@@ -1,0 +1,58 @@
+[
+	{
+		"id": "12",
+
+		"age": "18-20",
+		"name": "Dumbball",
+		"details": "Weight lifting with dumbbells lowers your risk of heart attack, stroke, and cardiovascular disease. Since strength training builds lean muscle mass, it helps you burn fat. Better sleep. Using dumbbells in the gym can lead to improved shut-eye",
+
+		"img": "https://cdn.pixabay.com/photo/2018/06/27/22/45/fitness-3502830_960_720.jpg"
+	},
+	{
+		"id": "13",
+
+		"age": "15-18",
+		"name": "BerBall",
+		"details": "Weight lifting with dumbbells lowers your risk of heart attack, stroke, and cardiovascular disease. Since strength training builds lean muscle mass, it helps you burn fat. Better sleep. Using dumbbells in the gym can lead to improved shut-eye",
+
+		"img": "https://cdn.pixabay.com/photo/2016/11/19/12/43/barbell-1839086_960_720.jpg"
+	},
+	{
+		"id": "14",
+
+		"age": "20-30",
+		"name": "Bench",
+		"details": "Bench presses can be used to increase strength, improve endurance, and tone the muscles of the upper body, including the chest, arms, and shoulders.",
+
+		"img": "https://cdn.pixabay.com/photo/2018/03/02/13/21/fitness-3193154_960_720.jpg"
+	},
+	{
+		"id": "15",
+
+		"age": "20-30",
+		"name": "Stability Ball",
+		"details": "When used properly, stability balls can strengthen the core (abdominal and lower back muscles). These muscles are used to perform daily activities. ",
+		"seller": "Addidas",
+
+		"img": "https://cdn.pixabay.com/photo/2012/02/29/16/08/active-19413_960_720.jpg"
+	},
+	{
+		"id": "16",
+
+		"age": "20-30",
+		"name": "Push Up",
+		"details": "Protecting your shoulders and lower back from injuries.Improving your balance and posture.Improving your flexibility.Improving your performance in sports and athletic activities.",
+
+		"img": "https://cdn.pixabay.com/photo/2017/08/07/14/02/man-2604149_960_720.jpg"
+	},
+	{
+		"id": "17",
+
+		"age": "22-35",
+		"name": "Wave Ropes",
+		"details": "Protecting your shoulders and lower back from injuries.Improving your balance and posture.Improving your flexibility.Improving your performance in sports and athletic activities.",
+		"seller": "Addidas",
+
+		"img": "https://cdn.pixabay.com/photo/2021/06/13/01/47/man-6331987_960_720.jpg"
+	}
+]
