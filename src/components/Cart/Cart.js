@@ -3,6 +3,12 @@ import React from 'react';
  import "./Cart.css"
 const Cart = ({ cart }) => {
 	console.log(cart);
+
+  let time = 0;
+  for (const eachCart of cart) {
+    time = time + eachCart.time
+  }
+  
 	return (
 		<div className=''>
 			{/* profile info */}
@@ -46,7 +52,7 @@ const Cart = ({ cart }) => {
 				<div className='excercise-content'>
 					<div className='excercise-details'>
 						<h2>Excercise-Time </h2>
-						<p>20000s</p>
+						<p>{time}s</p>
 					</div>
 					<div className='excercise-details'>
 						<h2>Break-Time </h2>

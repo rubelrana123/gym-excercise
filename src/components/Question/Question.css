@@ -1,0 +1,9 @@
+.question-container {
+  background-color: rgb(195, 223, 177);
+  margin: 15px;
+  padding: 10px;
+}
+
+span {
+  color: red;
+}
