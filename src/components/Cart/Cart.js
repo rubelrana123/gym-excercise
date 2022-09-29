@@ -1,13 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
  import profile from "../../men.png"
  import "./Cart.css"
 const Cart = ({ cart }) => {
+
 	console.log(cart);
 
   let time = 0;
   for (const eachCart of cart) {
     time = time + eachCart.time
   }
+
+    const [breaks, setBreaks] = useState([]);
+  const handleBreak = (value) => {
+    setBreaks(value);
+
+  }
+  console.log(breaks)
   
 	return (
 		<div className=''>
@@ -40,10 +48,10 @@ const Cart = ({ cart }) => {
 				<h1>Add a Break</h1>
 
 				<div className='break-btn'>
-					<button>20</button>
-					<button>30</button>
-					<button>40</button>
-					<button>50</button>
+					<button onClick={() => handleBreak(20)}>20</button>
+					<button onClick={() => handleBreak(30)}>30</button>
+					<button onClick={() => handleBreak(40)}>40</button>
+					<button onClick={() => handleBreak(50)}>50</button>
 				</div>
 			</div>
 			<div className='Excercise'>
@@ -56,14 +64,12 @@ const Cart = ({ cart }) => {
 					</div>
 					<div className='excercise-details'>
 						<h2>Break-Time </h2>
-						<p>15s</p>
+						<p>{breaks ? breaks : `0`}s</p>
 					</div>
 				</div>
 			</div>
 
-      <button className='activities-btn'>
-        Activity Complete
-      </button>
+			<button className='activities-btn'>Activity Complete</button>
 		</div>
 	);
 };
