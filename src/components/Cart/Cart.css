@@ -66,4 +66,5 @@ background-color: rgb(233, 241, 224);
   font-size: 25px;
   font-weight: 400;
   border-radius: 5px;
+  cursor: pointer;
 }

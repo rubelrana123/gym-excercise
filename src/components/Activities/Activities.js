@@ -1,10 +1,12 @@
-import React from 'react';
+
 
 import "./Activities.css";
 
 const Activities = ({ excercise, handlerCart }) => {
 	// console.log(excercise);
 	const { img, details, name, age ,time } = excercise;
+	
+
 	return (
 		<div>
 			

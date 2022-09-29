@@ -1,22 +1,36 @@
-import React, { useState } from 'react';
- import profile from "../../men.png"
- import "./Cart.css"
+import React, { useEffect, useState } from 'react';
+import { ToastContainer, toast } from 'react-toast';
+import profile from "../../men.png"
+import { getFromLocalStorage, setToLocalStorage } from '../../utilities/fakedb';
+import "./Cart.css"
 const Cart = ({ cart }) => {
+	const [breaks, setBreaks] = useState(0);
 
-	console.log(cart);
+   useEffect (() => {
+        let storeTime = localStorage.getItem('break-time');
+				if (storeTime) {
+					storeTime = getFromLocalStorage();
+					// setBreaks(storeTime);
+				} else {
+					storeTime = 0;
+				}
+				setBreaks(storeTime);
+   }, [])
+    // setBreaks(value);
+  	const handleBreak = (value) => {
+			setBreaks(value);
+     setToLocalStorage(value);
+		};
 
-  let time = 0;
-  for (const eachCart of cart) {
-    time = time + eachCart.time
-  }
+	let time = 0;
+	for (const eachCart of cart) {
+		time = time + eachCart.time;
+	}
 
-    const [breaks, setBreaks] = useState([]);
-  const handleBreak = (value) => {
-    setBreaks(value);
+	// console.log(breaks);
 
-  }
-  console.log(breaks)
-  
+	const success = () => toast.success('Activities Complete successfully!');
+
 	return (
 		<div className=''>
 			{/* profile info */}
@@ -64,12 +78,15 @@ const Cart = ({ cart }) => {
 					</div>
 					<div className='excercise-details'>
 						<h2>Break-Time </h2>
-						<p>{breaks ? breaks : `0`}s</p>
+						<p>{breaks}s</p>
 					</div>
 				</div>
 			</div>
 
-			<button className='activities-btn'>Activity Complete</button>
+			<button onClick={success} className='activities-btn'>
+				Activity Complete
+			</button>
+			<ToastContainer />
 		</div>
 	);
 };
