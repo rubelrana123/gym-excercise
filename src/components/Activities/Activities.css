@@ -2,7 +2,7 @@
 
 .myCart {
   width: 300px;
-  height: 450px;
+  height: 420px;
   border: 1px solid rgb(156, 152, 145);
   background-color: white;
   border-radius: 12px;
@@ -28,17 +28,18 @@ height:150px;
 } 
 
 .cart-info p {
-  font-size: 25px;
-  font-weight: 600;
+  font-size: 20px;
+  font-weight: 500;
 }
 .myCart button {
-  background-color: #47B5FF;
+  background-color: #5eff00;
   width: 100%;
   padding: 12px;
   font-size: 25px;
   position: absolute;
   border: 0;
   border-radius: 5px;
+  cursor: pointer;
 
   
   /* background-color: #FFE0B3; */

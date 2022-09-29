@@ -1,5 +1,5 @@
 .cart-summary {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 .profile-content {
   display: flex;
@@ -26,20 +26,22 @@
   
   
 }
+.profile-info p span {
+  color: black;
+
+} 
 .break-btn {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 15px;
-  background-color: rgb(184, 177, 189);
+  background-color: rgb(148, 142, 151);
 }
 .break-btn button {
   cursor: pointer;
   padding: 25px ;
   border-radius: 50%;
 }
-.break-btn button :hover {
-   background-color: rgb(15, 247, 35);
-}
+
 .Excercise {
   display: flex;
   flex-direction: column

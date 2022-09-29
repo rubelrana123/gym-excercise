@@ -21,7 +21,7 @@ const Home = () => {
 	 setCart(newCart);
 	 
 	}
-	console.log(cart);
+	// console.log(cart);
 
 	return (
 		<div className='home-container'>
