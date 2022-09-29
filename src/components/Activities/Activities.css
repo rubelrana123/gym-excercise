@@ -1,1 +1,48 @@
 
+
+.myCart {
+  width: 300px;
+  height: 450px;
+  border: 1px solid rgb(156, 152, 145);
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px rgb(236, 232, 232);
+  
+  margin-top: 50px;
+  position: relative;
+  
+}
+.myCart img {
+width :286px;
+
+height:150px;
+ border-radius: 20px;
+ margin: 7px;
+}
+
+.myCart h2, p {
+ text-align: left;
+ margin-left: 25px;
+ margin: 8px !important;
+ 
+} 
+
+.cart-info p {
+  font-size: 25px;
+  font-weight: 600;
+}
+.myCart button {
+  background-color: #47B5FF;
+  width: 100%;
+  padding: 12px;
+  font-size: 25px;
+  position: absolute;
+  border: 0;
+  border-radius: 5px;
+
+  
+  /* background-color: #FFE0B3; */
+  bottom: 0;
+  left: 0;
+  /* left: 0; */
+}

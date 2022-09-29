@@ -1,5 +1,5 @@
-import logo from './gym.svg';
-import './App.css';
+
+import "./App"
 import Home from './components/Home/Home';
 
 function App() {

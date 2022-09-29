@@ -5,7 +5,7 @@
 		"age": "18-20",
 		"name": "Dumbball",
 		"details": "Weight lifting with dumbbells lowers your risk of heart attack, stroke, and cardiovascular disease. Since strength training builds lean muscle mass, it helps you burn fat. Better sleep. Using dumbbells in the gym can lead to improved shut-eye",
-
+    "time":25,
 		"img": "https://cdn.pixabay.com/photo/2018/06/27/22/45/fitness-3502830_960_720.jpg"
 	},
 	{
@@ -14,7 +14,7 @@
 		"age": "15-18",
 		"name": "BerBall",
 		"details": "Weight lifting with dumbbells lowers your risk of heart attack, stroke, and cardiovascular disease. Since strength training builds lean muscle mass, it helps you burn fat. Better sleep. Using dumbbells in the gym can lead to improved shut-eye",
-
+		"time": 35,
 		"img": "https://cdn.pixabay.com/photo/2016/11/19/12/43/barbell-1839086_960_720.jpg"
 	},
 	{
@@ -22,12 +22,14 @@
 
 		"age": "20-30",
 		"name": "Bench",
+		"time": 45,
 		"details": "Bench presses can be used to increase strength, improve endurance, and tone the muscles of the upper body, including the chest, arms, and shoulders.",
 
 		"img": "https://cdn.pixabay.com/photo/2018/03/02/13/21/fitness-3193154_960_720.jpg"
 	},
 	{
 		"id": "15",
+		"time": 35,
 
 		"age": "20-30",
 		"name": "Stability Ball",
@@ -38,7 +40,7 @@
 	},
 	{
 		"id": "16",
-
+		"time": 24,
 		"age": "20-30",
 		"name": "Push Up",
 		"details": "Protecting your shoulders and lower back from injuries.Improving your balance and posture.Improving your flexibility.Improving your performance in sports and athletic activities.",
@@ -47,7 +49,7 @@
 	},
 	{
 		"id": "17",
-
+		"time": 48,
 		"age": "22-35",
 		"name": "Wave Ropes",
 		"details": "Protecting your shoulders and lower back from injuries.Improving your balance and posture.Improving your flexibility.Improving your performance in sports and athletic activities.",
