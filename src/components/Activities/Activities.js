@@ -18,7 +18,7 @@ const Activities = ({ excercise, handlerCart }) => {
 							<p>Age : {age}</p>
 							<p>Time : {time}s</p>
 						</div>
-						<button onClick={() => handlerCart(excercise)}>Add to Cart</button>
+						<button onClick={() => handlerCart(excercise)}>Add to List</button>
 					</div>
 				</div>
 			</div>

@@ -45,7 +45,7 @@ const Home = () => {
 			</div>
 
 			<div className='cart-summary'>
-				<Cart></Cart>
+				<Cart cart = {cart}></Cart>
 			</div>
 		</div>
 	);
